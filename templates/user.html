@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style_user.css' %}"/>
+</head>
+<body class="body">
+    <div class="header">
+        <div class="welcome_text">
+            <h3>Our Prediction For The Stock</h3>
+        </div> 
+        <div class="email_logo_div">
+            <a href = "mailto: harshmishralko31@gmail.com">
+            <img class="email_logo" src="static/img/gmail.png">
+            </a>
+        </div>
+        <div class="github_logo_div">   
+            <a href = "https://github.com/HarshGujalwar/Trading-Information-and-Forecast">
+            <img class="github_logo" src="static/img/github-mark.png">
+            </a>
+        </div>
+        <div class="yahoo_logo_div">   
+            <a href ="https://finance.yahoo.com/">
+            <img class="yahoo_logo" src="static/img/yahoo.png">
+            </a>
+        </div>
+    </div> 
+    <div class="Stock-Output">
+        <div class="text-input"><p >Model Predictions</p></div> 
+        <div class="text-input"><p >Predicted Direction={{ticker}}</p></div> 
+        <div class="text-input"><p >Prediction Accuracy={{accuracy}}%</p></div> 
+    </div>
+</body>
