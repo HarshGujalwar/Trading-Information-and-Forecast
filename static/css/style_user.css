@@ -1,0 +1,93 @@
+.header
+{
+    background-color:#DDD0C8;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(240,240,240);
+    padding-right: 0px;
+    padding-left:0px;
+}
+.body
+{
+    background-color:rgb(192,192,192);
+}
+.welcome_text
+{
+    font-family:Raleway;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 385px;
+    font-size: 35px;
+    
+}
+.github_logo_div
+{
+    margin-top:150px;
+    margin-right:20px;
+    height: 35px;
+    width:35px;
+}
+.github_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+.email_logo_div
+{
+    margin-top:150px;
+    margin-right:0px;
+    height: 35px;
+    width:35px;
+    margin-right:20px;
+    margin-left:250px;
+}
+.email_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+
+.yahoo_logo_div
+{
+    margin-top:150px;
+    margin-right:0px;
+    height: 35px;
+    width:35px;
+    margin-right:10px;
+    
+}
+.yahoo_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+.Stock-Output
+{
+    height:150px;
+    width:250px;
+    position: absolute;
+    top:400px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    text-align:center;
+    font-family: Raleway;
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 40px;
+    border-width: 500px;
+    border-color: #323232;
+    box-shadow: 0 8px 25px 0 #DDD0C8;
+}

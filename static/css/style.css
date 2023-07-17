@@ -1,0 +1,143 @@
+.header
+{
+    background-color:#DDD0C8;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(240,240,240);
+    padding-right: 0px;
+    padding-left:0px;
+}
+.text-input
+{
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-weight: 900;
+}
+.body
+{
+    background-color:rgb(192, 192, 192);
+}
+.welcome_text
+{
+    font-family:Raleway;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 385px;
+    font-size: 35px;
+    
+}
+
+.Stock-code-input
+{
+    height:200px;
+    width:300px;
+    position: absolute;
+    top:400px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    text-align:center;
+    font-family: Raleway;
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 40px;
+    border-width: 500px;
+    border-color: #323232;
+    box-shadow: 0 8px 25px 0 #DDD0C8;
+}
+
+
+.search_bar
+{
+  display: block;
+  height:34px;
+  max-width: 500px;
+  flex:1;
+  padding-left:10px;
+  font-size: 16px;
+  border-width:1px;
+  border-style:solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  margin-left: 40px;
+}
+.search_button
+{
+    height: 40px;
+    width: 80px;
+    background-color: #323232;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 20px;
+    margin-left: -1px;
+    margin-right: 8px;
+    margin-top: 20px;
+    transition: background-color 0.15,color 0.15s;
+    color: white;
+    
+}
+.search_button:hover{
+    box-shadow:10px 10px 10px rgba(0, 0,0, 0.15);
+    color:white ;
+}
+
+.search_button:active{
+    opacity:0.7;
+} 
+
+.email_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+
+.yahoo_logo_div
+{
+    margin-top:150px;
+    margin-right:0px;
+    height: 35px;
+    width:35px;
+    margin-right:10px;
+    
+}
+.yahoo_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+
+.github_logo_div
+{
+    margin-top:150px;
+    margin-right:20px;
+    height: 35px;
+    width:35px;
+}
+.github_logo
+{
+    
+    height: 35px;
+    width:35px;
+}
+.email_logo_div
+{
+    margin-top:150px;
+    margin-right:0px;
+    height: 35px;
+    width:35px;
+    margin-right:20px;
+    margin-left:250px;
+}
