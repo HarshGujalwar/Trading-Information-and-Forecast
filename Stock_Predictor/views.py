@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .predictors import predict,accuracy
 
 def Welcome(request):
-    return render(request,'Webpage.html')
+    return render(request,'index.html')
 def User(request):
     ticker = request.GET['ticker']
     tomorrow=False
