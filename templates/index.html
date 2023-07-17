@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stock Predictor</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+    </head>
+    <body class="body">
+        <div class="header">
+            <div class="welcome_text">
+                <h3>Stock Direction Predictor</h3>
+            </div> 
+            <div class="email_logo_div">
+                <a href = "mailto: harshmishralko31@gmail.com">
+                <img class="email_logo" src="static/img/gmail.png">
+                </a>
+            </div>
+            <div class="github_logo_div">   
+                <a href = "https://github.com/HarshGujalwar/Trading-Information-and-Forecast">
+                <img class="github_logo" src="static/img/github-mark.png">
+                </a>
+            </div>
+            <div class="yahoo_logo_div">   
+                <a href ="https://finance.yahoo.com/">
+                <img class="yahoo_logo" src="static/img/yahoo.png">
+                </a>
+            </div>
+        </div> 
+        <div class="Stock-code-input">
+            <div class="text-input"><p >Input Stock Ticker</p> </div> 
+                <form action="ticker">
+                <input class="search_bar" type ="text" name="ticker">
+                <input class="search_button" type="submit" value="Predict">
+                </form>
+        </div>
+        
+    </body>
+</html>
